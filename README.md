@@ -7,6 +7,7 @@ Repository ini berisi Dokumentasi langkah-langkah membuat machine learning untuk
 Progress:
 - 3 December 2024: Penentuan tema
 - 6 December 2024: Penyelesaian
+- 8 December 2024: Pembuatan Web Simulasi
 
 ## Daftar Isi
 1. [Instalasi dan Konfigurasi SSH](#1-instalasi-dan-konfigurasi-ssh-server)
@@ -19,7 +20,7 @@ Progress:
 ## Langkah 1: Mencari data
 Data yang akan kita pakai adalah Dataset yang berfokus pada penilaian kualitas udara di berbagai wilayah. Anda cukup menuju halaman kaggle berikut dan mengunduh data gratis.
 
-![Dataset Kaggle](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)
+[Dataset Kaggle air-quality-and-pollution-assessment](https://www.kaggle.com/datasets/mujtabamatin/air-quality-and-pollution-assessment)
 
 ## Langkah 2: Memahami Permasalahan
 Jenis machine learning pada project ini merupakan supervised learning, karena data memiliki label. Label dalam dataframe ini adalah data yang dimuat pada Air Quality. Selain itu, data yang kita miliki merupakan structured data karena data tersebut berwujud tabel.
