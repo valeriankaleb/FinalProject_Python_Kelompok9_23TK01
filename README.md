@@ -19,7 +19,7 @@ Progress:
 7. [Langkah 7: Meningkatkan Model](#Langkah-7:-Meningkatkan-Model)
 8. [Langkah 8: Menyimpan Machine Learning Model](#Langkah-8:-Menyimpan-Machine-Learning-Model)
 9. [Langkah 9: Demonstrasi Model](#Langkah-9:-Demonstrasi-Model)
-10. [Tampilan Website](#Tampilan-Website)
+10. [Tampilan Website Simulasi](#Tampilan-Website-Simulasi)
    
 
 ## Langkah 1: Mencari data
