@@ -10,15 +10,15 @@ Progress:
 - 8 December 2024: Pembuatan Web Simulasi
 
 ## Daftar Isi
-1. [Langkah 1: Mencari data](#Langkah-1:-Mencari-data)
-2. [Langkah 2: Memahami Permasalahan](#Langkah-2:-Memahami-Permasalahan)
-3. [Langkah 3: Menganalisis dan Memproses Data](#Langkah-3:-Menganalisis-dan-Memproses-Data)
-4. [Langkah 4: Membuat Machine Learning Model](#Langkah-4:-Membuat-Machine-Learning-Model)
-5. [Langkah 5: Melatih Machine Learning Model](#Langkah-5:-Melatih-Machine-Learning-Model)
-6. [Langkah 6: Evaluasi Model](#Langkah-6:-Evaluasi-Model)
-7. [Langkah 7: Meningkatkan Model](#Langkah-7:-Meningkatkan-Model)
-8. [Langkah 8: Menyimpan Machine Learning Model](#Langkah-8:-Menyimpan-Machine-Learning-Model)
-9. [Langkah 9: Demonstrasi Model](#Langkah-9:-Demonstrasi-Model)
+1. [Mencari data](#Langkah-1:-Mencari-data)
+2. [Memahami Permasalahan](#Langkah-2:-Memahami-Permasalahan)
+3. [Menganalisis dan Memproses Data](#Langkah-3:-Menganalisis-dan-Memproses-Data)
+4. [Membuat Machine Learning Model](#Langkah-4:-Membuat-Machine-Learning-Model)
+5. [Melatih Machine Learning Model](#Langkah-5:-Melatih-Machine-Learning-Model)
+6. [Evaluasi Model](#Langkah-6:-Evaluasi-Model)
+7. [Meningkatkan Model](#Langkah-7:-Meningkatkan-Model)
+8. [Menyimpan Machine Learning Model](#Langkah-8:-Menyimpan-Machine-Learning-Model)
+9. [Demonstrasi Model](#Langkah-9:-Demonstrasi-Model)
 10. [Tampilan Website Simulasi](#Tampilan-Website-Simulasi)
    
 
