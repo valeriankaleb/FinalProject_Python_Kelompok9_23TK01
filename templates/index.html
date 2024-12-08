@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title> Machine Learning</title>
+{% endblock %}
+
+{% block body %}
+<section class="ftco-section h-100 gradient-custom">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-6 text-center mb-5">
+				<h2 class="heading-section">Final Project Kelompok 9</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+				<div class="wrap d-md-flex">
+					<div class="text-wrap p-4 p-lg-5 d-flex img" style="background-image: url(images/bg.jpg);">
+						<div class="text w-100">
+							<h2 class="mb-4">Simulasi Prediksi Polusi Udara Dengan Machine Learning</h2>
+							<p>
+								Website ini adalah tempat untuk melakukan sebuah simulasi untuk mengetahui 
+								kapan polusi udara dikatakan beracun atau aman bagi manusia dengan menginputkan 
+								data pada kolom yang telah disediakan
+							</p>
+						</div>
+			  		</div>
+					<div class="login-wrap p-4 p-md-5">
+				  		<div class="row justify-content-center py-md-5">
+					  		<div class="col-lg-9">
+								<form class="signup-form" action="/" method="POST">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="form-group">
+										  		<span class="span">Suhu</span>
+										  		<input type="text" class="form-control" name="Temperature" id="Temperature" required>
+									  		</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+										  		<span class="span">Kelembapan</span>
+										  		<input type="text" class="form-control" name="Humidity" id="Humidity" required>
+									  		</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+										  		<span class="span">PM2.5</span>
+										  		<input type="text" class="form-control" name="PM25" id="PM25" required>
+									  		</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">PM10</span>
+								  				<input type="text" class="form-control" name="PM10" id="PM10" required>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">NO2</span>
+								  				<input type="text" class="form-control" name="NO2" id="NO2" required>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">SO2</span>
+								  				<input type="text" class="form-control" name="SO2" id="SO2" required>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">CO</span>
+								  				<input type="text" class="form-control" name="CO" id="CO" required>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">Proximitas ke Kawasan Industri</span>
+								  				<input type="text" class="form-control" name="Proximity_to_Industrial_Areas" id="Proximity_to_Industrial_Areas" required>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="form-group">
+												<span class="span">Kepadatan Penduduk</span>
+								  				<input type="text" class="form-control" name="Population_Density" id="Population_Density" required>
+											</div>
+										</div>
+										<div class="col-md-12 text-center">
+											<div class="form-group">
+												<button type="submit" class="btn btn-primary submit p-3">PREDIKSI</button>
+											</div>
+										</div>
+									</div>
+					  			</form>
+					  		</div>
+				  		</div>
+					</div>
+		  		</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}
