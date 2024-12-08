@@ -10,11 +10,16 @@ Progress:
 - 8 December 2024: Pembuatan Web Simulasi
 
 ## Daftar Isi
-1. [Instalasi dan Konfigurasi SSH](#1-instalasi-dan-konfigurasi-ssh-server)
-2. [Instalasi dan Konfigurasi DHCP Server](#2-instalasi-dan-konfigurasi-dhcp-server)
-3. [Instalasi dan Konfigurasi Database Server](#3-instalasi-dan-konfigurasi-database-server)
-4. [Instalasi dan Konfigurasi Web Server](#4-instalasi-dan-konfigurasi-web-server)
-5. [Instalasi dan Konfigurasi DNS Server](#5-instalasi-dan-konfigurasi-dns-server)
+1. [Langkah 1: Mencari data](#Langkah-1:-Mencari-data)
+2. [Langkah 2: Memahami Permasalahan](#Langkah-2:-Memahami-Permasalahan)
+3. [Langkah 3: Menganalisis dan Memproses Data](#Langkah-3:-Menganalisis-dan-Memproses-Data)
+4. [Langkah 4: Membuat Machine Learning Model](#Langkah-4:-Membuat-Machine-Learning-Model)
+5. [Langkah 5: Melatih Machine Learning Model](#Langkah-5:-Melatih-Machine-Learning-Model)
+6. [Langkah 6: Evaluasi Model](#Langkah-6:-Evaluasi-Model)
+7. [Langkah 7: Meningkatkan Model](#Langkah-7:-Meningkatkan-Model)
+8. [Langkah 8: Menyimpan Machine Learning Model](#Langkah-8:-Menyimpan-Machine-Learning-Model)
+9. [Langkah 9: Demonstrasi Model](#Langkah-9:-Demonstrasi-Model)
+10. [Tampilan Website](#Tampilan-Website)
    
 
 ## Langkah 1: Mencari data
