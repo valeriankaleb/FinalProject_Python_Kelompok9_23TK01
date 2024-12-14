@@ -1,7 +1,5 @@
 ## FINAL-PROJECT-PYTHON-KELOMPOK-9
 # Judul : Simulasi Prediksi Polusi Udara Menggunakan Machine Learning
-
-
 Repository ini berisi Dokumentasi langkah-langkah membuat machine learning untuk memprediksi apakah polusi udara termasuk aman atau berbahaya dengan menginputkan data secara manual.
 
 Progress:
