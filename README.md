@@ -1,5 +1,5 @@
-## VALERIAN KALEB SETIAWIRAWAN---FINAL-PROJECT-OS-SERVER-&-SYSTEM-ADMIN---23.83.0965
-# Judul : Prediksi Polusi Udara Menggunakan Machine Learning
+## FINAL-PROJECT-PYTHON-KELOMPOK-9
+# Judul : Simulasi Prediksi Polusi Udara Menggunakan Machine Learning
 
 
 Repository ini berisi Dokumentasi langkah-langkah membuat machine learning untuk memprediksi apakah polusi udara termasuk aman atau berbahaya dengan menginputkan data secara manual.
