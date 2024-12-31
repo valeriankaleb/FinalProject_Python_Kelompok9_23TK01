@@ -12,22 +12,25 @@ def index():
         with open('AI_AirClassifier.pkl','rb') as r:
             model = pickle.load(r)
 
-        Temperature = float(request.form['Temperature'])
-        Humidity = float(request.form['Humidity'])
-        PM25 = float(request.form['PM25'])
-        PM10 = float(request.form['PM10'])
-        NO2 = float(request.form['NO2'])
-        SO2 = float(request.form['SO2'])
-        CO = float(request.form['CO'])
-        Proximity_to_Industrial_Areas = float(request.form['Proximity_to_Industrial_Areas'])
-        Population_Density = float(request.form['Population_Density'])
+        try:
+            Temperature = float(request.form['Temperature'])
+            Humidity = float(request.form['Humidity'])
+            PM25 = float(request.form['PM25'])
+            PM10 = float(request.form['PM10'])
+            NO2 = float(request.form['NO2'])
+            SO2 = float(request.form['SO2'])
+            CO = float(request.form['CO'])
+            Proximity_to_Industrial_Areas = float(request.form['Proximity_to_Industrial_Areas'])
+            Population_Density = float(request.form['Population_Density'])
 
-        datas = np.array((Temperature, Humidity, PM25, PM10, NO2, SO2, CO, Proximity_to_Industrial_Areas, Population_Density))
-        datas = np.reshape(datas, (1, -1))
+            datas = np.array((Temperature, Humidity, PM25, PM10, NO2, SO2, CO, Proximity_to_Industrial_Areas, Population_Density))
+            datas = np.reshape(datas, (1, -1))
 
-        airclassifier = model.predict(datas)
+            airclassifier = model.predict(datas)
+            return render_template('hasil.html', finalData=airclassifier)
 
-        return render_template('hasil.html', finalData=airclassifier)
+        except ValueError:
+            return render_template('hasil.html', message="Harap masukkan angka dengan titik (.) sebagai pemisah desimal, bukan koma.")
 
     else:
         return render_template('index.html')

@@ -16,7 +16,7 @@
 			<div class="login-wrap p-4 p-md-5">
                 <div class="row justify-content-center py-md-5">
                   <form action="/" method="GET" class="signup-form text-center">
-                      <h2 class="mb-4">Polusi Udara Dinyatakan</h2>
+                        <h2 class="mb-4">Polusi Udara Dinyatakan</h2>
                           
                         {% if finalData == 0 %}
                         <h3 class="mb-4">GOOD</h3>
@@ -37,6 +37,8 @@
                                 <button type="submit" class="btn btn-primary submit p-3">Selesai</button>
                             </div>
                         </div>
+
+                        <h3> {{ message }} </h3>
                     </form>
                 </div>
             </div>
